@@ -1,0 +1,32 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= i_item_name %>" name="i_item_name" id="item-id" type="text" placeholder="i_item_name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= t_tag_name %>" name="t-tag-name" id="modifier-id" type="text" placeholder="t_tag_name">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

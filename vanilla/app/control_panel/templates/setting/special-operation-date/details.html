@@ -1,0 +1,47 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= special_operation_name %>" name="special_operation_name" id="special-operation-name" type="text" placeholder="Special Operation Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= special_operation_date %>" name="special_operation_date" id="special-operation-date" type="date" placeholder="Special Operation Date">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= opening_time %>" name="opening_time" id="opening-time" type="time" step="1" placeholder="Opening Time">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= closing_time %>" name="closing_time" id="closing-time" type="time" step="1" placeholder="Closing Time">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= remarks %>" name="remarks" id="remarks" type="text" placeholder="Remarks">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

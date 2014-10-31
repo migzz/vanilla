@@ -1,0 +1,56 @@
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="printer_name" id="printer-name" type="text" placeholder="Printer Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <span id="data-type">
+                    <select>
+                        <option>RAW</option>
+                        <option>TEXT</option>
+                        <option>RAW [FF appended]</option>
+                        <option>RAW [FF auto]</option>
+                        <option>NT EMF 1.003</option>
+                        <option>NT EMF 1.006</option>
+                        <option>NT EMF 1.007</option>
+                        <option>NT EMF 1.008</option>
+                    </select>
+                </span>
+                <input name="data_type" type="hidden">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="printer_address" id="printer-address" type="text" placeholder="Printer Address">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="parameter_name" id="parameter-name" type="text" placeholder="Parameter Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <span id="printer-type">
+                    <select>
+                        <option>DIRECT</option>
+                        <option>VIRTUAL</option>
+                    </select>
+                </span>
+                <input name="printer_type" type="hidden">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

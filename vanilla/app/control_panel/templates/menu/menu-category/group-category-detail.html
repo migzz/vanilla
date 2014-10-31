@@ -1,0 +1,28 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form class="no-edit-form">
+    <ul>
+        <li>
+            <label>
+                <input value="<%= mc_menu_category_name %>" name="mc_menu_category_name" id="menu-category-name" type="text" placeholder="Menu Category Name">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>
+<div id="menu-category-items"></div>

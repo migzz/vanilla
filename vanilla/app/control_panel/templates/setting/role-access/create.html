@@ -1,0 +1,37 @@
+<form>
+    <ul>
+        <li>
+            <div class="select-role-container" ></div>
+        </li>
+        <li>
+            <label>
+                <input name="module_id" id="module_id" type="text" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <select name="access_code" id="access_code">
+                    <option>READ</option>
+                    <option>READ+WRITE</option>
+                    <option>READ+WRITE+DELETE</option>
+                </select>
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="target_branch_id" id="target-branch-id" type="text" placeholder="Branch Target">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+
+    <input name="role_id" id="role_id" type="hidden" >
+</form>

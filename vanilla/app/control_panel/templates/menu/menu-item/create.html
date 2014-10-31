@@ -1,0 +1,101 @@
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="item_name" id="item-name" type="text" placeholder="Item Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="item_code" id="item-code" type="text" placeholder="Item Code" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="item_sku" id="item-sku" type="text" placeholder="Item SKU" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="description" id="description" type="text" placeholder="Description" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="z" name="unit_of_measure" id="unit-of-measure" type="text" placeholder="Unit Of Measure" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="9" name="item_cost" id="item-cost" type="text" placeholder="Item Cost" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="8" name="item_price" id="item-price" type="text" placeholder="Item Price" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="kitchen_area_id" id="kitchen-area-id" type="text" placeholder="Kitchen Area Id" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="7" name="preparation_time" id="preparation-time" type="text" placeholder="Preparation Time" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="6" name="alert_level" id="alert-level" type="text" placeholder="Alert Level" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="5" name="max_stock" id="max-stock" type="text" placeholder="Max Stock" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="4" name="re_order_quantity" id="re-order-quantity" type="text" placeholder="Re Order Quantity" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="item_purchase_code" id="item-purchase-code" type="text" placeholder="Item Purchase Code" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="main_supplier_id" id="main-supplier-id" type="text" placeholder="Main Supplier Id" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="photo_url" id="photo-url" type="text" placeholder="Photo URL" >
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <select id="tax-setting">
+                    <option>TAXABLE</option>
+                    <option>NON-TAXABLE</option>
+                    <option>EXEMPTED</option>
+                    <option>ZERO RATED</option>
+                </select>
+                <input value="ZERO RATED" name="tax_setting" type="hidden" >
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+    <input name="is_public" value="N" type="hidden">
+</form>

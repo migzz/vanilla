@@ -1,0 +1,93 @@
+
+
+*** FIND TODOs! ***
+
+Todo now
+    - update module collection on create, update or delete role access
+    - filter query
+    - remove close view AND render on model change
+    - item modifiers and promos
+    - design, flow
+    - template form element like select, checkboxes and validation
+    - set content height
+
+TODO later
+    - change all appendHtml of collection view and composite view see menu category for example
+    - put delay or disable multiple fast click
+    - notification for actions
+    - fetch all collection
+
+    - CRUD for multiple fields and requirements
+    - Associate Contacts
+    - Branch (for viewing only like branch select)
+    - module
+    - permissions
+    - search exact word ea. 'junk' shows also show 'junky', it should be 'junk' only
+
+    - animate close region?
+    - create patch function base on save backbone model
+    - Content App like
+    - custom input suggest list
+    - save data to local storage and cache files
+    - validation /^[a-zA-Z0-9 ._%-]*$/
+    - select user
+    - Rewrite modal dialog
+    - Breadcrumb location
+    - mobile menu slide
+    - pull to refresh
+    - swipe to delete
+    - toggle switch like ios as our tick box
+    - radio button
+    - save state
+    - error to warn
+    - wireframe
+
+Dashboard
+
+Inventory
+
+Menu
+
+Contacts
+
+Orders
+
+Reports
+
+Settings
+	general
+		appid
+		vanilla version
+		aurora version
+	branch
+		info
+		variables
+		operating hours
+	pos
+		transaction types
+		price modifiers
+
+	departments
+	shifts
+
+	areas & locations
+		visual setting
+		areas
+
+	reservations
+		time sitting
+		special turn time
+
+	terminals
+		current_session
+		last_accessed
+
+	roles
+	users
+		credentials
+			roles
+
+
+	printers
+	promotions
+	receipt templates

@@ -1,0 +1,15 @@
+<div>
+    <label><%= name %></label>
+    <% if (access['READ']) { %>
+        <label><input data-module="<%= module_id %>" data-access="read" class="module-access" type="checkbox" /></label>
+    <% }%>
+
+    <% if (access['READ+WRITE']) { %>
+        <label><input data-module="<%= module_id %>" data-access="write" class="module-access" type="checkbox" /></label>
+    <% }%>
+
+    <% if (access['READ+WRITE+DELETE']) { %>
+        <label><input data-module="<%= module_id %>" data-access="delete" class="module-access" type="checkbox" /></label>
+    <% }%>
+
+</div>

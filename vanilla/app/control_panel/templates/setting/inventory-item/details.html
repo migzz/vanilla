@@ -1,0 +1,32 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= ig_inventory_group_name %>" name="ig_inventory_group_name" id="ig-inventory-group-name" type="text" placeholder="Inventory Group Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= i_item_name %>" name="i_item_name" id="i-item-name" type="text" placeholder="Item Name">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

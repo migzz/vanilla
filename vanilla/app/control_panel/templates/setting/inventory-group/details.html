@@ -1,0 +1,37 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="inventory_group_name" id="inventory-group-name" type="text" value="<%= inventory_group_name %>" placeholder="<%= inventory_group_name %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="is_public" id="is-public" type="text" value="<%= is_public %>" placeholder="<%= is_public %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="status" id="status" type="text" value="<%= status %>" placeholder="<%= status %>">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

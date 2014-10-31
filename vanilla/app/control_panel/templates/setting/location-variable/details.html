@@ -1,0 +1,32 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= variable_name %>" name="variable_name" id="variable-name" type="text" placeholder="Location Variable Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= variable_value %>" name="variable_value" id="variable-value" type="text" placeholder="Location Variable Value">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

@@ -1,0 +1,70 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= time_sitting_name %>" name="time_sitting_name" id="time-sitting-name" type="text" placeholder="Time Sitting Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input id="sun" type="checkbox" >
+                <input name="sun" type="hidden" value="<%= sun %>">
+            </label>
+            <label>
+                <input id="mon" type="checkbox" >
+                <input name="mon" type="hidden" value="<%= mon %>">
+            </label>
+            <label>
+                <input id="tue" type="checkbox" >
+                <input name="tue" type="hidden" value="<%= tue %>">
+            </label>
+            <label>
+                <input id="wed" type="checkbox" >
+                <input name="wed" type="hidden" value="<%= wed %>">
+            </label>
+            <label>
+                <input id="thu" type="checkbox" >
+                <input name="thu" type="hidden" value="<%= thu %>">
+            </label>
+            <label>
+                <input id="fri" type="checkbox" >
+                <input name="fri" type="hidden" value="<%= fri %>">
+            </label>
+            <label>
+                <input id="sat" type="checkbox" >
+                <input name="sat" type="hidden" value="<%= sat %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= start_time %>" name="start_time" id="start-time" type="time" step="1" placeholder="Start Time" >
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= end_time %>" name="end_time" id="end-time" type="time" step="1" placeholder="End Time" >
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+        <li>
+            <%= status %>
+        </li>
+    </ul>
+</form>

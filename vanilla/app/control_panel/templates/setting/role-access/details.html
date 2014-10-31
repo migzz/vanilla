@@ -1,0 +1,42 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= r_role_id %>" name="r_role_id" id="role-id" type="text" placeholder="Role Id">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= module_id %>" name="module_id" id="module-id" type="text" placeholder="Module Id">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= access_code %>" name="access_code" id="access-code" type="text" placeholder="Access Code">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= tb_branch_id %>" name="target_branch_id" id="target-branch-id" type="text" placeholder="Branch Target">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

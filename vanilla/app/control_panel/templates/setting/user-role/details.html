@@ -1,0 +1,44 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <span id="user-credential-id-container">
+                    <select>
+                        <option></option>
+                    </select>
+                </span>
+                <input value="<%= uc_username %>" name="uc_username" type="hidden">
+                <input value="<%= uc_user_credential_id %>" name="user_credential_id" type="hidden">
+            </label>
+        </li>
+        <li>
+            <label>
+                <span id="role-id-container">
+                    <select>
+                        <option></option>
+                    </select>
+                </span>
+                <input value="<%= r_role_name %>" name="r_role_name" type="hidden">
+                <input value="<%= r_role_id %>" name="role_id" type="hidden">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

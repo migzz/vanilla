@@ -1,0 +1,9 @@
+<a class="branch-select-item" data-branch-id="<%= branch_id %>">
+    <img src="<%= photo_url || '../public/img/img_2.png' %>">
+    <div class="branch-select-item-info">
+        <div class="overflow"><i class="fa fa-home"></i> <span><%= branch_name %></span></div>
+        <div class="overflow"><i class="fa fa fa-map-marker"></i> <span><%= address || 'G/F Entertainment Complex Alabang Town Center, Muntinlupa' %></span></div>
+        <div><i class="fa fa-qrcode"></i> <%= branch_code %></div>
+        <div><i class="fa fa-location-arrow"></i> <%= host_address %></div>
+    </div>
+</a>

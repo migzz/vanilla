@@ -1,0 +1,49 @@
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="discount_name" id="discount-name" type="text" value="<%= discount_name %>" placeholder="<%= discount_name %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="print_label" id="print-label" type="text" value="<%= print_label %>" placeholder="<%= print_label %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="multiplier" id="multiplier" type="text" value="<%= multiplier %>" placeholder="<%= multiplier %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="constant" id="constant" type="text" value="<%= constant %>" placeholder="<%= constant %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="discount_type" id="discount-type" type="text" value="<%= discount_type %>" placeholder="<%= discount_type %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="applicable_to" id="applicable-to" type="text" value="<%= applicable_to %>" placeholder="<%= applicable_to %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="require_authorization" id="require-authorization" type="text" value="<%= require_authorization %>" placeholder="<%= require_authorization %>">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+    <input name="is_public" value="N" type="hidden">
+</form>

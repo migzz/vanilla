@@ -1,0 +1,36 @@
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="transaction_type_name" id="transaction-type-name" type="text" placeholder="Transaction Type Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input name="print_label" id="print-label" type="text" placeholder="Print Label">
+            </label>
+        </li>
+        <li>
+            <label>
+                <select id="tax-setting">
+                    <option>TAXABLE</option>
+                    <option>NON-TAXABLE</option>
+                    <option>EXEMPTED</option>
+                    <option>ZERO RATED</option>
+                </select>
+                <input name="tax_setting" type="hidden">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+    <input name="is_public" type="hidden" value="N">
+
+</form>

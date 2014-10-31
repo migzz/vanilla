@@ -1,0 +1,37 @@
+    <div class="item-action">
+        <button class="button-edit">
+            <i class="fa fa-edit"></i> Edit
+        </button>
+        <button class="button-delete">
+            <i class="fa fa-trash"></i> Delete
+        </button>
+    </div>
+
+    <form>
+        <ul>
+            <li>
+                <label>
+                    <input value="<%= associate_contact_id %>" name="associate_contact_id" id="associate-contact-id" type="text" placeholder="Associate Contact Id">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input value="<%= c_contact_id %>" name="contact_id" id="contact-id" type="text" placeholder="Contact Id">
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input value="<%= is_primary_contact %>" name="is_primary_contact" id="is-primary-contact" type="text" placeholder="Is Primary Contact">
+                </label>
+            </li>
+            <li>
+                <button class="button-save">
+                    <i class="fa fa-floppy-o"></i> Save
+                </button>
+
+                <button class="button-cancel">
+                    <i class="fa fa-times"></i> Cancel
+                </button>
+            </li>
+        </ul>
+    </form>

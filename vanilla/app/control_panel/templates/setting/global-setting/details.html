@@ -1,0 +1,33 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="currency_symbol" id="currency-symbol" type="text" value="<%= currency_symbol %>" placeholder="<%= currency_symbol %>">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+        <li>
+            <%= b_branch_name %>
+        </li>
+        <li>
+            <%= b_branch_code %>
+        </li>
+    </ul>
+</form>

@@ -1,0 +1,72 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input value="<%= payment_mode_name %>" name="payment_mode_name" id="payment-mode-name" type="text" placeholder="Payment Mode Name">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= print_label %>" name="print_label" id="print-label" type="text" placeholder="Print Label">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= payment_mode_type %>" name="payment_mode_type" id="payment-mode-type" type="text" placeholder="Payment Mode Type">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= post_action %>" name="post_action" id="post-action" type="text" placeholder="Post Action">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= require_data %>" name="require_data" id="require-data" type="text" placeholder="Require Data">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= prompt_title %>" name="prompt_title" id="prompt-title" type="text" placeholder="Prompt Title">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= prompt_input_type %>" name="prompt_input_type" id="prompt-input-type" type="text" placeholder="Prompt Input Type">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= require_authorization %>" name="require_authorization" id="require-authorization" type="text" placeholder="Require Authorization">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= is_public %>" name="is_public" id="is-public" type="text" placeholder="Is Public">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= status %>" name="status" id="status" type="text" placeholder="Status">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

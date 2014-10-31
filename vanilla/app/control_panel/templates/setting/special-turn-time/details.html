@@ -1,0 +1,33 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+
+        <li>
+            <label>
+                <input value="<%= day_of_week %>" name="day_of_week" id="days-of-week" type="text" placeholder="Days of Week">
+            </label>
+        </li>
+        <li>
+            <label>
+                <input value="<%= turn_time %>" name="turn_time" id="turn-time" type="text" placeholder="Turn Time">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+    </ul>
+</form>

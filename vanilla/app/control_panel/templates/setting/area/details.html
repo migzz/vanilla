@@ -1,0 +1,42 @@
+<div class="item-action">
+    <button class="button-edit">
+        <i class="fa fa-edit"></i> Edit
+    </button>
+    <button class="button-delete">
+        <i class="fa fa-trash"></i> Delete
+    </button>
+</div>
+
+<form>
+    <ul>
+        <li>
+            <label>
+                <input name="area_name" id="area-name" type="text" value="<%= area_name %>" placeholder="<%= area_name %>">
+            </label>
+        </li>
+        <li>
+            <label>
+                <select>
+                    <option>ketchen</option>
+                    <option>bathroom</option>
+                    <option>potato</option>
+                </select>
+                <input name="printer_id" id="printer-id" type="hidden" value="">
+            </label>
+        </li>
+        <li>
+            <button class="button-save">
+                <i class="fa fa-floppy-o"></i> Save
+            </button>
+
+            <button class="button-cancel">
+                <i class="fa fa-times"></i> Cancel
+            </button>
+        </li>
+        <li>
+            <%= status %>
+        </li>
+    </ul>
+</form>
+
+        <div class="area-location-container"></div>
